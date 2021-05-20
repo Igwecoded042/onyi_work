@@ -1,0 +1,10 @@
+.db
+.DS_Store
+pictures/
+onyi-admin/
+.idea
+.ini
+.log
+.sass-cache
+node_modules/
+test/
