@@ -1,0 +1,108 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .admin{
+    animation:admin1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes admin1{
+    0%{color: burlywood;}
+    20%{color: cadetblue;}
+    40%{color: cornsilk;}
+    60%{color: floralwhite;}
+    80%{color: gainsboro;}
+    100%{color:ghostwhite;}
+}
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  @media screen and (min-width: 320px) {
+    #onyi-head{
+      font-family: 'Times New Roman', Times, serif;
+      font-size:15px;
+    }
+    #key{
+      font-size:15px;
+      font-family: 'Times New Roman', Times, serif;
+      /* padding-inline-start: 50px;
+      padding-inline-end: 50px; */
+    }
+    #key:focus::-webkit-placeholder{
+  color: red !important;
+}
+  }
+
+
+  @media screen and (min-width: 650px) {
+    #onyi-head{
+      font-family: 'Times New Roman', Times, serif;
+      font-size:20px;
+    }
+    #key{
+      font-size:15px;
+      font-family: 'Times New Roman', Times, serif;
+      /* padding-inline-start: 50px;
+      padding-inline-end: 50px; */
+    }
+  }
+  @media screen and (min-width: 900px) {
+    .admin{
+      animation:admin1;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      display: flex; justify-content:center;
+      color:ghostwhite;
+      font-size:50px; 
+      font-family: 'Times New Roman', Times, serif;
+  }
+  #onyi-head{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: 20px;
+    
+  }
+  #key{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding-inline-start: 50px;
+    padding-inline-end: 50px; */
+  }
+
+  /* #key:focus{
+    text-align: center;
+  } */
+  
+    
+  }
+  

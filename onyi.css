@@ -1,0 +1,726 @@
+*{
+    margin: 0px;
+}
+.nav-link:hover {
+background: chocolate;
+color: black;
+display: block;
+
+}
+/* #sideLinks {
+background-color:firebrick;
+display: block;
+}
+
+#sideLinks:hover{
+background-color: chocolate;
+color: green;
+display: block;  
+} */
+
+#nav-anchor{
+height:100px;
+}
+        
+#head_title::selection{
+    background-color:rgb(124, 211, 242);
+
+}
+
+
+@media screen and (min-width:320px){
+
+#sly1{
+    height:100px;
+    width:30%;
+    font-size:30px;
+    color: red;
+    position:absolute;
+    left:15px;
+    top:25px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size-adjust: auto; */
+}
+#sly2{
+    height:100px;
+    width:40%;
+    font-size:30px;
+    font-weight: 700;
+    color: crimson;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sly3{
+    height:100px;
+    width:40%;
+    font-size:30px;
+    font-weight: 700;
+    color:ghostwhite;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sly4{
+    height:100px;
+    width:35%;
+    font-size:30px;
+    font-weight: 700;
+    color:red;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sly5{
+    height:100px;
+    width:35%;
+    font-size:30px;
+    font-weight: 700;
+    color: ghostwhite;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#head_title{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#wishlist{
+    height:20px;
+    width:50%;
+    padding:5px;
+    background-color:brown;
+    color:ghostwhite;
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head_title1{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:ghostwhite;
+}
+#head_title2{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    margin-top: 20px;
+    font-size-adjust: auto;
+}
+#head_title3{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pix{
+    height: 290px;
+    width: 100%;
+    margin-top: 133px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.pix1{
+    margin-top:130px;
+    overflow: hidden;
+}
+#pix2{
+    width:100%;
+    /* height:400px; */
+}
+.pic1{
+    width:100%;
+    /* image-resolution: 50px; */
+    /* height: 250px; */
+    /* padding:5px; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    margin-right: 30px;
+    cursor: pointer;
+    /* box-sizing: inherit; */
+}
+/* .pic2{
+    width:100%; */
+    /* image-resolution: 50px; */
+    /* height: 350px;
+    padding:5px; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* margin-right: 30px;
+    cursor: pointer;
+    box-sizing: content-box;
+} */
+/* .pic1{
+    width:100%;
+    height:300px;
+} */
+.size{
+    margin-top: 50px;
+    height:50px; 
+    width:50px;
+    background-color:orange;
+    
+}
+#cart{
+    height:50px;
+    width:50px;
+}
+
+#cart1{
+    height:50px;
+    width:150px;
+    background-color: grey;
+    margin-top: 50px;
+    padding: 10px;
+    color: ghostwhite;
+}
+#cart1:hover{
+    background-color: brown;
+}
+#cart2{
+    color: ghostwhite;
+}
+#cart2:hover{
+    background-color: brown;
+} 
+#cart3{
+    height:50px;
+    width:100%;
+    background-color: grey;
+    margin-top:auto;
+    padding: 10px;
+    color: ghostwhite;
+}
+#cart3:hover{
+    background-color: brown;
+}
+.company{
+    position: absolute;
+    top: -120px;
+    left:5%;
+    font-size:30px;
+    color:ghostwhite;
+    display: block;
+}
+.company1{
+    position: absolute;
+    top: -80px;
+    left:20%;
+    font-size:15px;
+    color:ghostwhite;
+}
+.heading2{
+    animation:  cont 7s linear infinite ;
+    -webkit-animation:  cont 7s linear infinite ;
+    }
+    @keyframes cont{
+        from{
+        color: skyblue;
+        }
+        to{
+        color:ghostwhite;
+        }
+    }
+.photo{
+height:445px;
+width:95%; 
+}
+#maxi{
+    height: 300px;
+    width: 100%;
+}
+#div1{
+    width:100%;
+    height:500px;
+    margin-bottom:650%;
+}
+#blog{
+    margin-top: auto;
+}
+#blog2{
+    height: 350px;
+    width: 100%;
+}
+#blog3{
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+.about{
+    margin-top:150px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.about1{
+    margin-top:auto;
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: 30px; 
+}
+.about2{
+    margin-top:150px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+#form{
+    margin-top:150px;
+}
+/* Style the buttons */
+.btn1 {
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+  .active1, .btn1:hover {
+    background-color: grey;
+    color: white;
+  }
+  #size1{
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+.font1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.font2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:orangered;
+}
+.font3{
+    height:25px;
+    width:50%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:ghostwhite;
+    background-color: orangered;
+}
+.font4{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.tags{
+    margin-top:-195px;
+    margin-left:30px;
+    height:30px;
+    width:100px;
+    background-color:brown;
+    color:ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    
+}
+}
+
+@media screen and (min-width:650px){
+#nav-header{
+    width: auto;
+}
+#input{
+    width:130px;
+}
+.pix{
+    height: 323px;
+    width: 100%;
+    margin-top: 92px;
+    overflow: hidden;
+}
+.pix1{
+    margin-top:92px;
+    overflow: hidden;
+}
+#pix2{
+    width:100%;
+    overflow: hidden;
+    /* height:400px; */
+}
+.pic1{
+    width:150%;
+    height:150px;
+    margin-top: 20px;
+}
+.photo{
+    height: 250px;
+    overflow: hidden;
+}
+.photo1{
+    height: 250px;
+    overflow: hidden;
+}
+.photo2{
+    height: 350px;
+    width:100%;
+    overflow: hidden!important;
+}
+#size1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#cart1{
+    height:50px;
+    width:150px;
+    margin-left: 5px;
+    background-color: grey;
+    margin-top: 50px;
+    padding: 10px;
+    color: ghostwhite;
+}
+#cart{
+    height:70px;
+    width:70px;
+
+}
+.font1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.font2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:orangered;
+}
+.font3{
+    height:25px;
+    width:50%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:ghostwhite;
+    background-color: orangered;
+}
+.font4{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+.tags{
+    margin-top:-145px;
+    margin-left:30px;
+    height:30px;
+    width:100px;
+    background-color:brown;
+    color:ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+}
+.pink{
+    color: orange;
+}
+
+@media screen and (min-width:900px){
+
+.ankara{
+    transform: scale(1.00);
+    transition: transform 0.5s, opacity 0.5s;
+    cursor: pointer;
+    }
+.ankara:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    }
+
+#input{
+    width:250px;
+}
+.pix{
+    height:600px;
+    width: 100%;
+    /* background-color: crimson; */
+    overflow: hidden;
+    margin-top:95px;  
+}
+.pix1{
+    margin-top:100px;
+    overflow: hidden;
+}
+#pix2{
+    width:100%;
+    height:600px;
+    overflow: hidden;
+}
+.pic{
+    width:100%;
+    height:160px;
+}
+.pic1{
+    width:100%;
+    height:160px;
+}
+.photo{
+    height: 250px;
+    overflow: hidden;
+}
+.photo1{
+    height: 400px;
+    width:100%;
+    overflow: hidden;
+}
+.photo2{
+    height: 400px;
+    width:100%;
+    overflow: hidden;
+}
+#sly1{
+    height:200px;
+    width:60%;
+    font-size:70px;
+    color:red;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sly2{
+    height:200px;
+    width:45%;
+    font-size:70px;
+    color:darkgoldenrod;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sly3{
+    height:200px;
+    width:35%;
+    font-size:70px;
+    color:ghostwhite;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sly4{
+    height:200px;
+    width:35%;
+    font-size:70px;
+    color:yellow;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sly5{
+    height:200px;
+    width:35%;
+    font-size:70px;
+    color:crimson;
+    position:absolute;
+    left:16px;
+    top:18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head_title{
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#head_title1{
+    font-size:45px;
+    font-family: 'Times New Roman', Times, serif;
+    color:ghostwhite;
+}
+#head_title2{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#head_title3{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#wishlist{
+    height:40px;
+    width:50%;
+    padding:5px;
+    background-color:brown;
+    color:ghostwhite;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.size{
+    margin-top: 50px;
+    height:50px; 
+    width:50px;
+    background-color:orange;
+}
+#cart1{
+    height:50px;
+    width:150px;
+    background-color: grey;
+    color: ghostwhite;
+    margin-top: 50px;
+    padding: 10px;
+}
+#cart1:hover{
+    background-color: brown;
+}
+#cart2{
+    color: ghostwhite;
+}
+#cart2:hover{
+    background-color: brown;
+}
+#cart3{
+    height:50px;
+    width:100%;
+    background-color: gray;
+    margin-top:auto;
+    padding: 10px;
+    color: ghostwhite;
+}
+#cart3:hover{
+    background-color: brown;
+}
+#nav-header{
+    height: 100px;
+}
+#info{
+    position: absolute;
+    top:250px;
+    height:30px;
+    width:100px;
+    background-color:brown;
+    color:ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    /* margin-top:-50px; */
+    margin-left:120px;
+    
+}
+
+.heading2{
+animation:  cont 7s linear infinite ;
+-webkit-animation:  cont 7s linear infinite ;
+}
+@keyframes cont{
+    from{
+    color: skyblue;
+    }
+    to{
+    color:ghostwhite;
+    }
+}
+.company{
+position: absolute;
+top: -170px;
+left:35%;
+font-size:45px;
+color:ghostwhite;
+}
+.company1{
+position: absolute;
+top: -110px;
+left:45%;
+font-size:15px;
+color:ghostwhite;
+}
+/* .pix{
+height: 600px;
+width: 100%;
+background-color: yellow;
+} */
+#maxi{
+    width:100%;
+    height:450px;
+}
+#div1{
+    margin-bottom:59%;
+    width:100%;
+    height:500px;
+}
+#blog{
+    margin-top: 30px;
+}
+#blog1{
+    margin-top: 30px;
+    color:black;
+    text-align: center;
+}
+#blog2{
+    height: 350px;
+    width: 50%;
+}
+#blog3{
+    height: 400px;
+    width: 100%;
+}
+.about{
+    margin-top:120px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.about2{
+    margin-top:20px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+#form{
+    margin-top:100px;
+}
+#size1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#cart{
+    height:70px;
+    width:70px;
+}
+.font1{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.font2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:orangered;
+}
+.font3{
+    height:25px;
+    width:50%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:ghostwhite;
+    background-color: orangered;
+}
+.font4{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.big{
+    min-height:600px;
+    width:50%;
+    /* display: block; */
+    /* overflow: hidden; */
+}
+.bigg{
+    min-height:600px;
+    width:49%;
+    float: right;
+    margin-top: -2200px;
+
+}
+
+.tags{
+    margin-top:-145px;
+    margin-left:30px;
+    height:30px;
+    width:100px;
+    background-color:brown;
+    color:ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    }
+
+}
